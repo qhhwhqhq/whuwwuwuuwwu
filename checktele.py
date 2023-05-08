@@ -74,7 +74,7 @@ def gen_user(choice):
         c = d =random.choices(a)
         d = random.choices(e)
         s = random.choices(b)
-        f =  [c[0], d[0], s[0], s[0], s[0]c,s[0],s[0]]
+        f =  [c[0], d[0], s[0], s[0], s[0],s[0],s[0]]
         random.shuffle(f)
         username = ''.join(f)
         if username in banned[0]:
